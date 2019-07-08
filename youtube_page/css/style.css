@@ -1,0 +1,155 @@
+/* base styles */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+ }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box; 
+  font-size: 1.6rem;
+}   
+
+/* Nav bar style */
+.nav-bar {
+    padding: 1rem 0;
+    height: 6rem;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 2rem;
+    align-items:center;
+    border-bottom: 1px solid #706d6d;
+
+}
+
+.nav-items-right {
+    display:flex;
+    float: right;
+    padding-right:2rem;
+    padding-left: 1rem;
+}
+.nav-items:last-child {
+    margin-right: 0;
+}
+
+.img-nav-item {
+    height: 3.4rem;
+}
+
+.nav-item-left {
+    float: left;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+.image-logo, .img-hamburger{
+    height: 4rem;
+}
+
+.img-hamburger {
+    height: 2.5rem;
+    margin-right: 5rem;
+    margin-bottom:0.7rem;
+}
+
+.img-search {
+    height: 3rem;
+}
+
+.nav-item-center{
+    padding-bottom: 2rem;
+    display: flex;
+}
+
+
+.nav-item-search {
+    padding:1rem auto;
+    width: 70rem;
+    height: 3rem;
+    outline: none;
+}
+
+
+
+
+
+/* grids */
+
+
+.row {
+    max-width: 114rem;
+    margin: 0 0; }
+    .row:not(:last-child) {
+      margin-bottom: 8rem; }
+    .row::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .row [class^="col-"] {
+      float: left; }
+    .row [class^="col-"]:not(:last-child) {
+    margin-right: 2rem; }
+    .row .col-1-of-2 {
+      width: calc((100% - 2rem)/2);
+      float: left; }
+      .row .col-1-of-2:not(:last-child) {
+        margin-right: 2rem; }
+    .row .col-1-of-3 {
+      width: calc((100% - 2*2rem) / 3); }
+    .row .col-2-of-3 {
+      width: calc(2* ((100% - 2*2rem) / 3) + 2rem); }
+    .row .col-1-of-4 {
+      width: calc((100% - 3*2rem) / 4); }
+    .row .col-2-of-4 {
+      width: calc(2*((100% - 3*2rem) / 4) + 2rem); }
+    .row .col-3-of-4 {
+      width: calc(3*((100% - 3*2rem) / 4 ) + 2*2rem);
+     }
+  
+
+     /* Main part */
+
+     .main {
+         display: inline-block;
+         position: relative;
+     }
+
+
+
+     .video-title{
+      color: black;
+      font-weight: 300;
+      display: block;
+     }
+
+     .image-stats{
+       width:45rem;
+       height: 3.5rem;
+       border-bottom: 1px solid #2c2b2b;
+      
+
+     }
+     .video-viewers{
+       padding-left:35rem;
+       display: flex;
+       padding-top: 2rem ;
+       padding-bottom: 0;
+        border-bottom: 1px solid #706d6d;
+     }
+     .paragraph {
+       padding-top: 1rem;
+     }
+     
+     
