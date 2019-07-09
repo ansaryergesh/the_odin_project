@@ -77,6 +77,10 @@ body {
     display: flex;
 }
 
+.autoplay {
+  margin-top:1rem;
+}
+
 
 .nav-item-search {
     padding:1rem auto;
