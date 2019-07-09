@@ -19,12 +19,12 @@ body {
   padding: 3rem;
   box-sizing: border-box; 
   font-size: 1.6rem;
+  position: inherit;
 }   
 
 /* Nav bar style */
 .nav-bar {
-    padding: 1rem 0;
-    height: 6rem;
+    padding: 0.1rem 0;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -64,7 +64,11 @@ body {
     margin-bottom:0.7rem;
 }
 
+
+
 .img-search {
+
+    border: 1px solid #777;
     height: 3rem;
 }
 
@@ -100,22 +104,14 @@ body {
     .row [class^="col-"] {
       float: left; }
     .row [class^="col-"]:not(:last-child) {
-    margin-right: 2rem; }
-    .row .col-1-of-2 {
-      width: calc((100% - 2rem)/2);
-      float: left; }
-      .row .col-1-of-2:not(:last-child) {
-        margin-right: 2rem; }
-    .row .col-1-of-3 {
-      width: calc((100% - 2*2rem) / 3); }
-    .row .col-2-of-3 {
-      width: calc(2* ((100% - 2*2rem) / 3) + 2rem); }
+    margin-right: 12  rem; }
     .row .col-1-of-4 {
-      width: calc((100% - 3*2rem) / 4); }
-    .row .col-2-of-4 {
-      width: calc(2*((100% - 3*2rem) / 4) + 2rem); }
+      margin-left: 15rem;
+      float: right;
+      width:20% }
+   
     .row .col-3-of-4 {
-      width: calc(3*((100% - 3*2rem) / 4 ) + 2*2rem);
+      width: 60%
      }
   
 
@@ -135,6 +131,7 @@ body {
      }
 
      .image-stats{
+       margin-left: 10rem;
        width:45rem;
        height: 3.5rem;
        border-bottom: 1px solid #2c2b2b;
@@ -152,4 +149,67 @@ body {
        padding-top: 1rem;
      }
      
+     /* Publisher style */
+
+     .video-users{
+       margin-top: 2rem;
+      padding-top: 2rem;
+      display: flex;
+       width:100%;
+       line-height: 1.5rem;
+     }
+
+     .image-user {
+        height: 5rem;
+        border-radius: 5rem;
+        margin-right: 1.5rem;
+     }
+
+     .p-bold {
+       font-weight: 600;
+       color:black;
+       font-size: 1.8rem;
+
+      
+     }
+     .info{
+       flex-direction: column;
+     }
+
+     .paragraph-little {
+
+       font-weight: 400;
+       color:#777;
+       font-size:1.2rem;
+
+     }
+     .paragraph {
+       padding:2.5rem 0;
+       line-height: 2rem;
+       color:black;
+     }
      
+     .paragraph-uppercase {
+       text-transform: uppercase;
+       padding:2rem 6rem;
+     }
+
+     .btn-subscribe {
+       position: relative;
+       width: 100%;
+       padding-right: 5rem;
+       margin-top:-20rem;
+     }
+     .img-subscribe {
+      margin-left:18rem;
+      margin-top:-6.5rem;
+       height: 15rem;
+       
+     }
+
+     .left-size-hider{ 
+       display: flex;
+       justify-content: flex-end;
+     }
+   
+
