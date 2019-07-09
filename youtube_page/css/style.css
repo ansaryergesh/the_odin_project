@@ -106,9 +106,10 @@ body {
     .row [class^="col-"]:not(:last-child) {
     margin-right: 2rem; }
     .row .col-1-of-4 {
-      padding-left: 2rem;
-      width: 40rem;
-      float: right; }
+      margin-left: 5rem;
+      padding-left: 15rem;
+      width: 48rem;
+       }
    
     .row .col-3-of-4 {
       width: 75rem
