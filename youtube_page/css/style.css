@@ -93,7 +93,7 @@ body {
 
 
 .row {
-    max-width: 114rem;
+    width: 140rem;
     margin: 0 0; }
     .row:not(:last-child) {
       margin-bottom: 8rem; }
@@ -104,14 +104,14 @@ body {
     .row [class^="col-"] {
       float: left; }
     .row [class^="col-"]:not(:last-child) {
-    margin-right: 12  rem; }
+    margin-right: 2rem; }
     .row .col-1-of-4 {
-      margin-left: 15rem;
-      float: right;
-      width:20% }
+      padding-left: 2rem;
+      width: 40rem;
+      float: right; }
    
     .row .col-3-of-4 {
-      width: 60%
+      width: 75rem
      }
   
 
@@ -157,7 +157,9 @@ body {
       display: flex;
        width:100%;
        line-height: 1.5rem;
-     }
+       
+    }
+    
 
      .image-user {
         height: 5rem;
@@ -207,9 +209,20 @@ body {
        
      }
 
-     .left-size-hider{ 
-       display: flex;
-       justify-content: flex-end;
+     .left-size-header{ 
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
      }
    
 
+
+     .paragraph-2 {
+       color:black;
+     }
+
+     .autoplay {
+       justify-content: ;
+     }
+     
