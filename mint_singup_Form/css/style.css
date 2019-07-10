@@ -58,12 +58,6 @@ a{
 
 /* Main */
 
-
-.logo-images{
-
-}
-
-
 main>.logo {
     display: block;
     margin: 7rem auto 1rem auto;
@@ -146,4 +140,43 @@ main>.logo {
 .little-text {
     font-size: 1rem;
     margin: 0 auto 1rem 2.5rem;
+}
+
+.i-cur{
+    margin-top:1.5rem;
+    font-size:1.1rem;
+    text-align: center
+}
+.i-curr{
+    margin-top:0;
+    font-size:1.1rem;
+    text-align: center;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
+}
+
+.i-curr>strong{
+    color: #4487f2;
+
+}
+.i-curr>strong:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-labels>.p-labels{
+    background-color: #e6e8eb;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+.p-labels>strong{
+    color: #4487f2;
+}
+
+.p-labels>strong:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
