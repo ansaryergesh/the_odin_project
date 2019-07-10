@@ -129,7 +129,8 @@ main>.logo {
     margin-bottom: 3rem;
 }
 
-.form-labels>input[type=submit] {
+.btn-create {
+    margin:2rem 2.5rem;
     background-color: #4487f2;
     border-radius: 3px;
     color:white;
