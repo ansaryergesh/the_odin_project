@@ -79,29 +79,71 @@ main>.logo {
 
 .form{
     background-color: white;
-    width: 30%;
+    width: 25%;
     margin-right: auto;
     margin-left: auto;
+    border:1px solid #cfd1d4;
 
 }
 
-.form>h1{
+.form-headings>h1{
     font-size: 2.5rem;
     padding: 2rem 0 0 0 ;
     text-align: center;
     font-weight: 300;
 }
 
-.form>p{
-    font-size: 1.5rem;
-    padding: 1rem 0 ;
+.form-headings>p{
+    font-size: 1.4rem;
+    padding-top: 1rem;
     text-align: center;
+    font-weight: 300;
+    line-height: 0.7
+}
+
+.form-headings>a{
+    display: block;
+    font-size: 1.2rem;
+    padding:  0;
+    text-align:center;
     font-weight: 300;
 }
 
-.form>a{
-    font-size: 1.2rem;
-    padding: 1rem 0 ;
-    text-align: center;
-    font-weight: 300;
+.form-labels {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels>label {
+    font-size:1.4rem;
+    margin: 1.5rem auto .8rem 2.5rem;
+}
+
+.form-labels>input{
+    height: 3rem;
+    width: 85%;
+    margin: 0 auto 1rem 2.5rem;
+    border-radius: 3px;
+    border:0.5px solid #cfd1d4;
+
+}
+
+.form-labels>input[type=tel] {
+    margin-bottom: 0;
+}
+.form-labels>input[type=password] {
+    margin-bottom: 3rem;
+}
+
+.form-labels>input[type=submit] {
+    background-color: #4487f2;
+    border-radius: 3px;
+    color:white;
+    height: 5rem;
+   
+}
+
+.little-text {
+    font-size: 1rem;
+    margin: 0 auto 1rem 2.5rem;
 }
