@@ -180,3 +180,23 @@ main>.logo {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.footer{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin-right: 0.4rem;
+}
+li:hover{
+    text-decoration: underline;
+}
+.ul-section{
+   
+    
+}
